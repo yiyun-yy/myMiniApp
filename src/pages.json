@@ -1,0 +1,109 @@
+{
+    "pages": [
+        {
+            "path": "pages/sign/index",
+            "style": {
+                "navigationBarTitleText": "一面而就"
+            }
+        },
+        {
+            "path": "pages/PersonalCenter/index",
+            "style": {
+                "navigationBarTitleText": "个人中心"
+            }
+        },
+        {
+            "path": "pages/InterViewDetail/index"
+        },
+        {
+            "path": "pages/CustomerService/index",
+            "style": {
+                "navigationBarTitleText": "我的客服"
+            }
+        },
+        {
+            "path": "pages/AddInterview/index",
+            "style": {
+                "navigationBarTitleText": "添加面试"
+            }
+        },
+        {
+            "path": "pages/interviewList/index",
+            "style": {
+                "navigationBarTitleText": "面试列表",
+                "enablePullDownRefresh": true,
+                "onReachBottomDistance": 50
+            }
+        },
+        {
+            "path": "pages/finger/index",
+            "style": {
+                "navigationBarTitleText": "指纹识别页面",
+                "enablePullDownRefresh": true,
+                "onReachBottomDistance": 50
+            }
+        },
+        {
+            "path": "pages/mine/index",
+            "style": {
+                "navigationBarTitleText": "选择面试地址"
+            }
+        },
+        {
+            "path": "pages/tabBar/API/API",
+            "style": {
+                "navigationBarTitleText": "签到首页"
+            }
+        },
+        {
+            "path": "pages/tabBar/component/component",
+            "style": {
+                "navigationBarTitleText": "内置组件",
+                "app-plus": {
+                    "bounce": "vertical",
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "\ue534",
+                                "fontSrc": "/static/uni.ttf",
+                                "fontSize": "22px",
+                                "color": "#FFFFFF"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "Hello uniapp",
+        "navigationBarBackgroundColor": "#fff",
+        "backgroundColor": "#F8F8F8",
+        "backgroundColorTop": "#F4F5F6",
+        "backgroundColorBottom": "#F4F5F6",
+        "app-plus": {
+            "animationType": "pop-in"
+        }
+    },
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#007AFF",
+        "borderStyle": "black",
+        "backgroundColor": "#F8F8F8",
+        "list": [
+            {
+                "pagePath": "pages/tabBar/component/component",
+                "iconPath": "static/component.png",
+                "selectedIconPath": "static/componentHL.png",
+                "text": "内置组件"
+            },
+            {
+                "pagePath": "pages/tabBar/API/API",
+                "iconPath": "static/api.png",
+                "selectedIconPath": "static/apiHL.png",
+                "text": "接口"
+            }
+        ]
+    }
+}
